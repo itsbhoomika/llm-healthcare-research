@@ -2,11 +2,6 @@ Iterative LLM-Guided Feature Extraction for Clinical Trial Outcome Prediction
 Overview
 This repository implements a feedback loop system for predicting clinical trial outcomes. The approach combines LLM-based structured feature extraction with supervised learning to iteratively improve feature quality and predictive performance.
 Methodology
-Pipeline Architecture
-
-Feature Extraction: Qwen 2.5 7B-Instruct extracts structured features from clinical trial descriptions
-Supervised Learning: Lasso logistic regression identifies most predictive features
-Feedback Loop: Feature importance scores guide LLM refinement in next iteration
 
 Technical Stack
 Models:
